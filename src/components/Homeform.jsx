@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { BiUserCircle } from 'react-icons/bi'
 import Button from '../components/Button'
 
