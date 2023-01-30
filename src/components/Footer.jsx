@@ -7,7 +7,7 @@ import { BiLogIn } from 'react-icons/bi'
 
 const Footer = () => {
   return (
-    <footer className="footer items-center p-4 bg-neutral text-bg-white">
+    <footer className="footer items-center p-4 bg-bg-black text-bg-white">
       <div className="items-center grid-flow-col">
         <BiLogIn size={35}/><p>Copyright © 2023 - All right reserved</p>
       </div> 
