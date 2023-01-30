@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { AiFillTwitterCircle, AiFillFacebook, AiFillInstagram } from 'react-icons/ai'
+import { AiFillTwitterCircle, AiFillInstagram } from 'react-icons/ai'
 import { BsFacebook } from 'react-icons/bs'
 import { BiLogIn } from 'react-icons/bi'
 

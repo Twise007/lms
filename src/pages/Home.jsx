@@ -29,7 +29,7 @@ const Home = () => {
                   </label>
                   <input type="text" placeholder="password" className="input input-bordered bg-bg-off-white text-bg-black" />
                   <label className="label">
-                    <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+                    <a href="/" className="label-text-alt link link-hover">Forgot password?</a>
                   </label>
                 </div>
                 <div className="form-control mt-6">

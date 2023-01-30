@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { BiLogIn } from 'react-icons/bi'
 import { FaUserCircle } from 'react-icons/fa'
 import { RxDropdownMenu } from 'react-icons/rx'
@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 
 
 const Header = () => {
-    const [open, setOpen] = useState(true);
 
   return (
     <div className="navbar bg-bg-white">
