@@ -23,7 +23,7 @@ const Header = () => {
                 <ul tabIndex={0} className={`menu menu-compact dropdown-content mt-3 p-2 shadow bg-bg-white rounded-box w-52 duration-700`}> 
                     <li><Link to="/profile">Profile</Link></li>
                     <li><Link to="/login">Login</Link></li>
-                    <li><Link to="/logout">Logout</Link></li>
+                    <li><Link to="/">Logout</Link></li>
                 </ul>
             </div>
         </div>

@@ -5,6 +5,7 @@ import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
 import Reset from "./pages/auth/Reset";
 import Home from "./pages/Home";
+import Profile from "./pages/Profile";
 
 
 
@@ -19,6 +20,9 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/forgotpassword" element={<Forgot />} />
           <Route path="/resetpassword/:resetToken" element={<Reset />} />
+
+
+          <Route path="/profile" element={<Profile />} />
 
         </Routes>
       </BrowserRouter>
