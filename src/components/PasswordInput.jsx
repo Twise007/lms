@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { AiOutlineEye, AiOutlineEyeInvisible } from 'react-icons/ai'
 
-const PasswordInput = ({placeholder, name, value, onChange, onPaste}) => {
+const PasswordInput = ({placeholder, name, value, onChange, onPaste, children }) => {
     const [showPassword, setShowPassword] = useState(false)
     const togglePassword = () => {
         setShowPassword(!showPassword)
@@ -11,7 +11,7 @@ const PasswordInput = ({placeholder, name, value, onChange, onPaste}) => {
   return (
     <div className='form-control'>
         <label className="label">
-            <span className="label-text text-bg-white">Password</span>
+            <span className="label-text text-bg-white">{ children }</span>
         </label>
         <div className="input-group" >
         <input 

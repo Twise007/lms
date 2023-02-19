@@ -5,15 +5,22 @@ import Button from '../../components/Button'
 import PasswordInput from '../../components/PasswordInput'
 import Waves from '../../components/Waves'
 
+const initialState = {
+    email: "",
+    password: "",
+  };
+
 
 const Login = () => {
-    const [email, setEmail] = useState("")
-    const [password, setPassword] = useState("")
-    const handleInputChange = () => {};
-    const loginUser = () => {};
+    const [formData, setFormData] = useState(initialState);
+    const { email, password } = formData;  
+    const handleInputChange = (e) => {
+        const {name, value} = e.target
+        setFormData({...formData, [name]: value})
+    };
 
 
-
+const loginUser = () => {};
   return (
     <div className="hero min-h-screen bg-bg-purple">
         <Waves />
@@ -39,14 +46,15 @@ const Login = () => {
                     </label>
                     <input type="email" placeholder="Email" required name='email' value={email} onChange={handleInputChange} className="input input-bordered bg-bg-off-white text-bg-black" />
                     </div>
-                        <PasswordInput 
+                        <PasswordInput
+                        children="Password"
                         placeholder="Password"
                         name="password"
                         value={password}
                         onChange={handleInputChange}
                         />
-                    </form>
                     <Button>login</Button>
+                    </form>
                     <Link to="/forgotpassword" className="label-text-alt link link-hover mb-1 text-bg-black">Forgot password?</Link>
                     <Link to="/" className="label-text-alt link link-hover mb-1 text-bg-black">Home</Link>
                     <p style={{fontSize:"12px", fontStyle:"italic"}}> &nbsp; Don't have an account? &nbsp; </p>

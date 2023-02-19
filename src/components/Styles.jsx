@@ -12,7 +12,8 @@ line-height: 0;
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 399px;
+    height: 286px;
+    transform: rotateY(180deg);
 }
 .shape-fill {
     fill:  var(--color-white);
