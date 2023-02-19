@@ -3,7 +3,7 @@ import { BiUserCircle } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 import Button from '../../components/Button'
 import PasswordInput from '../../components/PasswordInput'
-import Waves from '../../components/Waves'
+import Waveup from '../../components/Wave'
 
 const initialState = {
     email: "",
@@ -23,7 +23,7 @@ const Login = () => {
 const loginUser = () => {};
   return (
     <div className="hero min-h-screen bg-bg-purple">
-        <Waves />
+        <Waveup />
         <div className="">
             <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl glass">                
                 <div className="card-body">

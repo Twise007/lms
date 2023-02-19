@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Wave = styled.div`
+export const Wave1 = styled.div`
 position: absolute;
 top: 0;
 left: 0;

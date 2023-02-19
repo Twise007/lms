@@ -4,7 +4,7 @@ import { TiUserAddOutline  } from 'react-icons/ti'
 import { Link } from 'react-router-dom'
 import Button from '../../components/Button'
 import PasswordInput from '../../components/PasswordInput'
-import Waves from '../../components/Waves'
+import Wave from '../../components/Wave'
 import { useEffect } from 'react'
 
 
@@ -70,8 +70,8 @@ const Register = () => {
 
 const registerUser = () => {};
   return (
-    <div className="hero min-h-screen bg-bg-purple">
-        <Waves />
+    <div className="hero  bg-bg-purple">
+        <Wave/>
         <div className="">
             <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl glass">                
                 <div className="card-body">
@@ -144,6 +144,7 @@ const registerUser = () => {};
                 </div>
             </div>
         </div>
+
     </div>
   )
 }

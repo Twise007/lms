@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import Button from '../../components/Button'
-import Waves from '../../components/Waves'
+import Waveup from '../../components/Wave'
 
 const initialState = {
     email: "",
@@ -21,7 +21,7 @@ const Forgot = () => {
 const forgotPassword = () => {};
   return (
     <div className="hero min-h-screen bg-bg-purple">
-        <Waves />
+        <Waveup />
         <div className="">
             <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl glass">                
                 <div className="card-body">

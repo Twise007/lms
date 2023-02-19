@@ -3,7 +3,7 @@ import { MdPassword } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 import Button from '../../components/Button'
 import PasswordInput from '../../components/PasswordInput'
-import Waves from '../../components/Waves'
+import Waves from '../../components/Wave'
 
 
 const initialState = {
