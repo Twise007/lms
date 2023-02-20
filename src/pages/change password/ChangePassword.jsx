@@ -48,7 +48,7 @@ const changePassword = () => {};
                     onChange={handleInputChange}
                     />
 
-                <Button>update profile</Button>
+                <Button>change password</Button>
             </form>
           </div>
         </div>
