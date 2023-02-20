@@ -1,5 +1,4 @@
 import React from 'react'
-import { BiLogIn } from 'react-icons/bi'
 import { Wave1, Wave2 } from './Styles'
 
 const Wave = ({children}) => {
