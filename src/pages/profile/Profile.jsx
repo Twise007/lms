@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import profileImg from "../../assets/homePic.jpg"
 import Button from '../../components/Button'
 import PageMenu from '../../components/PageMenu';
@@ -17,7 +16,7 @@ const initialState = {
 
 const Profile = () => {
   const [formData, setFormData] = useState(initialState);
-  const { name, email, phone, bio, photo, role, } = formData;  
+  const { name, email, phone, bio, photo, } = formData;  
   const handleInputChange = (e) => {
       const {name, value} = e.target
       setFormData({...formData, [name]: value})
