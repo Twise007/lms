@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
 
   return (
-    <div className="navbar bg-bg-white">
+    <div className="navbar bg-bg-white"style={{position:"fixed", zIndex:"999"}}>
         <div className="flex-1">
             <a href='/' className="btn btn-ghost bg-bg-off-white normal-case text-xl p-2 shadow-2xl text-bg-purple" ><BiLogIn size={35} className="mr-2"/>LMS</a>
         </div>
