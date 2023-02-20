@@ -4,7 +4,6 @@ import { TiUserAddOutline  } from 'react-icons/ti'
 import { Link } from 'react-router-dom'
 import Button from '../../components/Button'
 import PasswordInput from '../../components/PasswordInput'
-import Wave from '../../components/Wave'
 import { useEffect } from 'react'
 
 
@@ -70,13 +69,12 @@ const Register = () => {
 
 const registerUser = () => {};
   return (
-    <div className="hero  bg-bg-purple">
-        <Wave/>
+    <div className="hero bg-bg-off-white pt-20 pb-5">
         <div className="">
-            <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl glass">                
+            <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-bg-off-white">                
                 <div className="card-body">
                     <div className="card-actions justify-center">
-                        <TiUserAddOutline size={50} className="text-bg-white"/> 
+                        <TiUserAddOutline size={50} className="text-bg-black "/> 
                     </div>
                     <div className="card-actions justify-center">                 
                         <h1 style={{fontSize:"30px", fontWeight:"500"}} className='text-bg-purple'>Register</h1> 
@@ -84,15 +82,15 @@ const registerUser = () => {};
                     <form onSubmit={registerUser}>
                     <div className="form-control">
                     <label className="label">
-                        <span className="label-text text-bg-white">Name</span>
+                        <span className="label-text text-bg-black">Name</span>
                     </label>
-                    <input type="text" placeholder="Name" required name='name' value={name} onChange={handleInputChange} className="input input-bordered bg-bg-off-white text-bg-black" />
+                    <input type="text" placeholder="Name" required name='name' value={name} onChange={handleInputChange} className="input input-bordered bg-bg-white text-bg-black" />
                     </div>
                     <div className="form-control">
                     <label className="label">
-                        <span className="label-text text-bg-white">Email</span>
+                        <span className="label-text text-bg-black">Email</span>
                     </label>
-                    <input type="email" placeholder="Email" required name='email' value={email} onChange={handleInputChange} className="input input-bordered bg-bg-off-white text-bg-black" />
+                    <input type="email" placeholder="Email" required name='email' value={email} onChange={handleInputChange} className="input input-bordered bg-bg-white text-bg-black" />
                     </div>
                         <PasswordInput
                         children="Password"
@@ -110,7 +108,7 @@ const registerUser = () => {};
                         />
 
                         {/*password strenght*/}
-                        <ul className="menu menu-compact glass m-2 rounded-box text-bg-black ">
+                        <ul className="menu menu-compact bg-bg-white m-2 rounded-box text-bg-black ">
                             <li>
                                 <p>
                                 {switchIcon(uCase)}

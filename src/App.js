@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
+import Wave from "./components/Wave";
 import Forgot from "./pages/auth/Forgot";
 import Login from "./pages/auth/Login";
 import Loginwithcode from "./pages/auth/Loginwithcode";
@@ -20,11 +21,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout><Home /></Layout>} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/forgotpassword" element={<Forgot />} />
-          <Route path="/resetpassword/:resetToken" element={<Reset />} />
-          <Route path="/loginwithcode/:email" element={<Loginwithcode />} />
+          <Route path="/login" element={<Wave><Login /></Wave>} />
+          <Route path="/register" element={<Wave><Register /></Wave>} />
+          <Route path="/forgotpassword" element={<Wave><Forgot /></Wave>} />
+          <Route path="/resetpassword/:resetToken" element={<Wave><Reset /></Wave>} />
+          <Route path="/loginwithcode/:email" element={<Wave><Loginwithcode /></Wave>} />
           <Route path="/verify/:verificationToken" element={<Layout><Verify /></Layout>} />
 
           <Route path="/profile" element={<Layout><Profile /></Layout>} />

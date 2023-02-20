@@ -11,7 +11,7 @@ const PasswordInput = ({placeholder, name, value, onChange, onPaste, children })
   return (
     <div className='form-control'>
         <label className="label">
-            <span className="label-text text-bg-white">{ children }</span>
+            <span className="label-text text-bg-black">{ children }</span>
         </label>
         <div className="input-group" >
         <input 
@@ -22,7 +22,7 @@ const PasswordInput = ({placeholder, name, value, onChange, onPaste, children })
         value={value} 
         onChange={onChange} 
         onPaste={onPaste}
-        className="input input-bordered bg-bg-off-white text-bg-black" 
+        className="input input-bordered bg-bg-white text-bg-black" 
         style={{width:'100%'}}
         />
             <span className="bg-bg-black text-bg-white" onClick={togglePassword}>

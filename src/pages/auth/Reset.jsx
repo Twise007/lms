@@ -3,7 +3,6 @@ import { MdPassword } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 import Button from '../../components/Button'
 import PasswordInput from '../../components/PasswordInput'
-import Waves from '../../components/Wave'
 
 
 const initialState = {
@@ -23,13 +22,12 @@ const Reset = () => {
 
 const forgotPassword = () => {};
   return (
-    <div className="hero min-h-screen bg-bg-purple">
-        <Waves />
+    <div className="hero min-h-screen bg-bg-off-white">
         <div className="">
             <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl glass">                
                 <div className="card-body">
                     <div className="card-actions justify-center">
-                        <MdPassword size={50} className="text-bg-white"/> 
+                        <MdPassword size={50} className="text-bg-black"/> 
                     </div>
                     <div className="card-actions justify-center">                 
                         <h1 style={{fontSize:"30px", fontWeight:"500"}} className='text-bg-purple'>Reset Password</h1> 
