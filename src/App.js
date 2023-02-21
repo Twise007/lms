@@ -10,7 +10,7 @@ import Verify from "./pages/auth/Verify";
 import ChangePassword from "./pages/change password/ChangePassword";
 import Home from "./pages/Home";
 import Profile from "./pages/profile/Profile";
-import Users from "./pages/users/Users";
+import UsersList from "./pages/users/UsersList";
 
 
 
@@ -30,7 +30,7 @@ function App() {
 
           <Route path="/profile" element={<Layout><Profile /></Layout>} />
           <Route path="/changepassword" element={<Layout><ChangePassword /></Layout>} />
-          <Route path="/users" element={<Layout><Users /></Layout>} />
+          <Route path="/userslist" element={<Layout><UsersList /></Layout>} />
 
         </Routes>
       </BrowserRouter>

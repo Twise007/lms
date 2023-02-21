@@ -17,7 +17,7 @@ const PageMenu = () => {
                 </NavLink>
             </li>
             <li>
-                <NavLink to="/users" className="hover:bg-bg-white hover:text-bg-purple mx-1">
+                <NavLink to="/userslist" className="hover:bg-bg-white hover:text-bg-purple mx-1">
                     Users
                 </NavLink>
             </li>
