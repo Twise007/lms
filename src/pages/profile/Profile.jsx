@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import profileImg from "../../assets/homePic.jpg"
+import student from "../../assets/fstudent.jpg"
 import Button from '../../components/Button'
 import PageMenu from '../../components/PageMenu';
 
@@ -37,7 +37,7 @@ const profile = () => {};
           <h1 className='text-bg-black text-3xl font-bold p-2 '>Profile:</h1>
           <div className='text-center bg-white'>
             <figure className="mx-8 pt-5">
-            <img src={profileImg} alt="profile img" className="rounded-xl" />
+            <img src={student} alt="profile img" className="rounded-xl" />
             </figure>
             <h3 className='mt-2'>Role:<span className='pl-3'>Subscriber</span></h3>
           </div>
