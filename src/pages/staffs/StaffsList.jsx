@@ -1,14 +1,14 @@
 import React from 'react'
 import PageMenu from '../../components/PageMenu'
-import UserStats from '../../components/usersStats/UserStats'
+import StaffsStats from '../../components/staffsStats/StaffsStats'
 
-const UsersList = () => {
+const StaffsList = () => {
   return (
     <div className='bg-bg-off-white min-h-screen pt-20 px-10'>
     <PageMenu />
-    <UserStats />
+    <StaffsStats />
     </div>
   )
 }
 
-export default UsersList
+export default StaffsList
