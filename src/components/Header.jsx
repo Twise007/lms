@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className="navbar bg-bg-white"style={{position:"fixed", zIndex:"999"}}>
         <div className="flex-1">
-            <a href='/' className="btn btn-ghost bg-bg-off-white normal-case text-xl p-2 shadow-2xl text-bg-purple" ><BiLogIn size={35} className="mr-2"/>LMS</a>
+            <a href='/' className="btn  bg-bg-off-white normal-case text-xl p-2 shadow-2xl text-bg-purple hover:bg-bg-purple hover:text-bg-white" style={{border:"none"}}><BiLogIn size={35} className="mr-2"/>LMS</a>
         </div>
         <div className="flex-none text-bg-black">
             <ul className="menu menu-horizontal px-1">

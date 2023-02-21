@@ -49,7 +49,6 @@ const forgotPassword = () => {};
                         />
                     <Button>reset password</Button>
                     </form>
-                    <Link to="/" className="label-text-alt link link-hover mb-1 text-bg-black">Home</Link>
                     <Link to="/login" className="label-text-alt link link-hover mb-1 text-bg-black">Login</Link>
                 </div>
             </div>

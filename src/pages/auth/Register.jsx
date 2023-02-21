@@ -69,7 +69,7 @@ const Register = () => {
 
 const registerUser = () => {};
   return (
-    <div className="hero bg-bg-off-white pt-20 pb-5">
+    <div className="hero bg-bg-off-white py-24 min-h-screen">
         <div className="">
             <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-bg-off-white">                
                 <div className="card-body">
@@ -108,7 +108,7 @@ const registerUser = () => {};
                         />
 
                         {/*password strenght*/}
-                        <ul className="menu menu-compact bg-bg-white m-2 rounded-box text-bg-black ">
+                        <ul className="menu menu-compact bg-bg-white m-2 rounded-box text-bg-black">
                             <li>
                                 <p>
                                 {switchIcon(uCase)}
@@ -136,9 +136,8 @@ const registerUser = () => {};
                             </ul>
                         <Button>register</Button>
                     </form>
-                    <Link to="/" className="label-text-alt link link-hover mb-1 text-bg-black">Home</Link>
-                    <p style={{fontSize:"12px", fontStyle:"italic"}}> &nbsp; Already have an account? &nbsp; </p>
-                    <Link to="/login" className="label-text-alt link link-hover mb-1 text-bg-black">Login</Link>
+                    <p className='pl-3' style={{fontSize:"12px", fontStyle:"italic"}}> &nbsp; Already have an account? &nbsp; </p>
+                    <Link to="/login" className="label-text-alt link link-hover mb-3 p-1 text-bg-black">Login</Link>
                 </div>
             </div>
         </div>

@@ -21,7 +21,7 @@ const Login = () => {
 
 const loginUser = () => {};
   return (
-    <div className="hero bg-bg-off-white pt-20 pb-5">
+    <div className="hero bg-bg-off-white py-24 min-h-screen">
         <div className="">
             <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-bg-off-white">                
                 <div className="card-body">
@@ -53,10 +53,9 @@ const loginUser = () => {};
                         />
                     <Button>login</Button>
                     </form>
-                    <Link to="/forgotpassword" className="label-text-alt link link-hover mb-1 text-bg-black">Forgot password?</Link>
-                    <Link to="/" className="label-text-alt link link-hover mb-1 text-bg-black">Home</Link>
-                    <p style={{fontSize:"12px", fontStyle:"italic"}}> &nbsp; Don't have an account? &nbsp; </p>
-                    <Link to="/register" className="label-text-alt link link-hover mb-1 text-bg-black">Register</Link>
+                    <Link to="/forgotpassword" className="label-text-alt link link-hover p-1 text-bg-black">Forgot password?</Link>
+                    <p className='pl-3' style={{fontSize:"12px", fontStyle:"italic"}}> &nbsp; Don't have an account? &nbsp; </p>
+                    <Link to="/register" className="label-text-alt link link-hover mb-3 p-1 text-bg-black">Register</Link>
                 </div>
             </div>
         </div>

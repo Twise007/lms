@@ -61,7 +61,7 @@ const profile = () => {};
               <label className="label">
                   <span className="label-text text-bg-black">Email</span>
               </label>
-              <input type="email" placeholder="Email" disabled name='email' value={email} onChange={handleInputChange} className="input input-bordered bg-bg-white shadow-2xl text-bg-black" />
+              <input type="email" placeholder="Email" disabled name='email' value={email} onChange={handleInputChange} className="input input-bordered bg-bg-white shadow-2xl text-bg-off-white" />
               </div>
 
               <div className="form-control">

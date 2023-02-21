@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { RiShieldKeyholeFill } from 'react-icons/ri'
-import { Link } from 'react-router-dom'
 import Button from '../../components/Button'
 
 const initialState = {
@@ -39,8 +38,7 @@ const LoginWithCode = () => {};
                     <Button>proceed to login</Button>
                     <span className='label-text-alt text-bg-black m-5 bg-bg-white p-1'>Check your email for login access code</span>
                     </form>
-                    <Link to="/" className="label-text-alt link link-hover mb-3 text-bg-black mt-5">Home</Link>
-                    <button className='text-bg-black hover:text-bg-purple p-1 py-2 mx-16 shadow-2xl bg-bg-white rounded-box'>Resend Code</button>
+                    <div className="btn btn-ghost normal-case text-xl shadow-2xl text-bg-purple hover:text-bg-white">Resend Code</div>
                 </div>
             </div>
         </div>
