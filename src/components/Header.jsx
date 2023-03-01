@@ -1,17 +1,15 @@
 import React from 'react'
-import { BiLogIn } from 'react-icons/bi'
 import { FaUserCircle } from 'react-icons/fa'
 import { RxDropdownMenu } from 'react-icons/rx'
 import { Link } from 'react-router-dom'
+import Htitle from './Htitle'
 
 
 const Header = () => {
 
   return (
     <div className="navbar bg-bg-white"style={{position:"fixed", zIndex:"999"}}>
-        <div className="flex-1">
-            <a href='/' className="btn  bg-bg-off-white normal-case text-xl p-2 shadow-2xl text-bg-purple hover:bg-bg-purple hover:text-bg-white" style={{border:"none"}}><BiLogIn size={35} className="mr-2"/>LMS</a>
-        </div>
+        <Htitle/>
         <div className="flex-none text-bg-black">
             <ul className="menu menu-horizontal px-1">
                 <li><p><FaUserCircle size={20} />Hi,<span className='text-bg-purple'>Tunde</span></p></li>

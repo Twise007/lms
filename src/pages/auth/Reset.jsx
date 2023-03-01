@@ -24,7 +24,7 @@ const forgotPassword = () => {};
   return (
     <div className="hero min-h-screen bg-bg-off-white">
         <div className="">
-            <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl glass">                
+            <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl">                
                 <div className="card-body">
                     <div className="card-actions justify-center">
                         <MdPassword size={50} className="text-bg-black"/> 
