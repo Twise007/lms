@@ -13,7 +13,7 @@ const PasswordInput = ({placeholder, name, value, onChange, onPaste, children })
         <label className="label">
             <span className="label-text text-bg-black">{ children }</span>
         </label>
-        <div className="input-group" >
+        <div className="input-group">
         <input 
         type={showPassword ? "text" : "password"} 
         placeholder={placeholder} 
