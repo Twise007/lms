@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import { FaCheck } from 'react-icons/fa'
 
 
 const ChangeRole = () => {
@@ -13,9 +12,6 @@ const ChangeRole = () => {
             <option value="teacher">Teacher</option>
             <option value="student">Student</option>
         </select>
-        {/*<button>
-            <FaCheck size={20}/>
-  </button>*/}
     </form>
   )
 }
