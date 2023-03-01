@@ -3,25 +3,21 @@ import { NavLink } from 'react-router-dom'
 
 const PageMenu = () => {
   return (
-    <div className='hero'>
-        <div className="flex-none bg-bg-purple text-bg-white p-2 w-96 rounded-box">
-            <ul className="menu menu-horizontal px-1 active:bg-bg-black ">
-            <li>
-                <NavLink to="/profile" className="hover:bg-bg-white hover:text-bg-purple mx-1">
-                    Profile
-                </NavLink>
-            </li>
-            <li>
-                <NavLink to="/changepassword" className="hover:bg-bg-white hover:text-bg-purple mx-1">
-                    Change Password
-                </NavLink>
-            </li>
-            <li>
-                <NavLink to="/staffslist" className="hover:bg-bg-white hover:text-bg-purple mx-1">
-                    Staffs
-                </NavLink>
-            </li>
-            </ul>
+    <div className="navbar bg-bg-purple text-bg-white w-full rounded">
+        <div className='navbar-start'>
+            <NavLink to="/profile" className="hover:bg-bg-white p-1 hover:p-1 rounded hover:text-bg-purple" >
+                Profile
+            </NavLink>
+        </div>
+        <div className='navbar-center '>
+            <NavLink to="/changepassword" className="hover:bg-bg-white p-2 hover:p-1 rounded hover:text-bg-purple">
+                Change Password
+            </NavLink>
+        </div>
+        <div className='navbar-end '>
+            <NavLink to="/staffslist" className="hover:bg-bg-white p-2 hover:p-1 rounded hover:text-bg-purple">
+                Staffs
+            </NavLink>
         </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaTrashAlt } from 'react-icons/fa'
+import ChangeRole from '../../components/changeRole/ChangeRole'
 import PageMenu from '../../components/PageMenu'
 import Search from '../../components/Search'
 import StaffsStats from '../../components/staffsStats/StaffsStats'
@@ -15,7 +16,7 @@ const StaffsList = () => {
       <div className="flex-none navbar-end"><Search/></div>  
     </div>
 
-    <div className='overflow-x-auto rounded-box shadow-xl mt-5 text-bg-black'>
+    <div className='overflow-x-auto bg-bg-off-white rounded-box shadow-xl mt-5 text-bg-black'>
       <table className="table w-full ">
         <thead className='bg-bg-purple text-bg-white'>
           <tr>
@@ -58,7 +59,7 @@ const StaffsList = () => {
             <td>Tundeoke80@gmail.com</td>
             <td>Admin</td>
             <td>
-              Change Role
+              <ChangeRole/>
             </td>
             <td>
               <FaTrashAlt size={20} color='red'/>

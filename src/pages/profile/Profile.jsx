@@ -30,7 +30,7 @@ const Profile = () => {
 
 const profile = () => {};
   return (
-    <div className='bg-bg-off-white  min-h-screen pt-20'>
+    <div className='bg-bg-off-white  min-h-screen pt-20 px-10'>
       <PageMenu />
       <div className='hero'>
         <div className="card w-96 bg-bg-off-white text-bg-black shadow-2xl my-5 ">
