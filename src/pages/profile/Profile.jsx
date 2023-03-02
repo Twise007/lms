@@ -32,14 +32,13 @@ const profile = () => {};
   return (
     <div className='bg-bg-off-white  min-h-screen pt-20 px-10'>
       <PageMenu />
-      <div className='hero'>
-        <div className="card w-96 bg-bg-off-white text-bg-black shadow-2xl my-5 ">
+        <div className="card bg-bg-off-white text-bg-black shadow-2xl my-5 ">
           <h1 className='text-bg-black text-3xl font-bold p-2 '>Profile:</h1>
           <div className='text-center bg-white'>
             <figure className="mx-8 pt-5">
             <img src={student} alt="profile img" className="rounded-xl" />
             </figure>
-            <h3 className='mt-2'>Role:<span className='pl-3'>Subscriber</span></h3>
+            <h3 className='mt-2 text-bg-purple text-2xl'>Role:<span className='pl-3 text-bg-black text-xl'>Admin</span></h3>
           </div>
           <div className="card-body text-center">
             <form onSubmit={profile}>
@@ -81,7 +80,6 @@ const profile = () => {};
             </form>
           </div>
         </div>
-      </div>
     </div>
   )
 }

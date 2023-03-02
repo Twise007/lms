@@ -17,7 +17,7 @@ const StaffsList = () => {
     </div>
 
     <div className='overflow-x-auto bg-bg-off-white rounded-box shadow-xl mt-5 text-bg-black'>
-      <table className="table w-full bg-bg-off-white!important">
+      <table className="table w-full bg-bg-purple!important">
         <thead className='text-bg-white'>
           <tr>
             <th>s/n</th> 
