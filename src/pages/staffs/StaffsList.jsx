@@ -16,10 +16,10 @@ const StaffsList = () => {
       <div className="flex-none navbar-end"><Search/></div>  
     </div>
 
-    <div className='overflow-x-auto bg-bg-off-white rounded-box shadow-xl mt-5 text-bg-black'>
-      <table className="table w-full bg-bg-purple">
-        <thead className='text-bg-white bg-bg-purple'>
-          <tr>
+    <div className='overflow-x-auto rounded-box shadow-xl mt-5'>
+      <table className="table w-full bg-bg-purple!important">
+        <thead className='text-bg-white bg-bg-purple!important'>
+          <tr className='bg-bg-purple!important'>
             <th>s/n</th> 
             <th>Name</th> 
             <th>Email</th> 
@@ -28,7 +28,7 @@ const StaffsList = () => {
             <th>Action</th>
           </tr>
         </thead> 
-        <tbody>
+        <tbody className='bg-bg-off-white text-bg-black'>
           <tr className="hover">
             <th>3</th>
             <td>Tunde</td>
