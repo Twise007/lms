@@ -47,7 +47,7 @@ const profile = () => {};
                 <label className="label">
                     <span className="label-text text-bg-black">Change Photo:</span>
                 </label>
-                <input type="file" accept='image/*' name='photo' value={photo} onChange={handleImageChange} className="file-input file-input-bg-secondary max-w-xs shadow-2xl bg-bg-white"/>
+                <input type="file" accept='image/*' name='photo' value={photo} onChange={handleImageChange} className="file-input file-input-bg-secondary max-w-xs shadow-2xl bg-bg-white w-full"/>
               </div>
               
               <div className="form-control">
