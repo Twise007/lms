@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
-import Loader from "./components/Loader";
 import Wave from "./components/Wave";
 import Forgot from "./pages/auth/Forgot";
 import Login from "./pages/auth/Login";
@@ -20,7 +19,6 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      
         <Routes>
           <Route path="/" element={<Layout><Home /></Layout>} />
           <Route path="/login" element={<Wave><Login /></Wave>} />
