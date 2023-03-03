@@ -3,19 +3,21 @@ import { NavLink } from 'react-router-dom'
 
 const PageMenu = () => {
   return (
-    <div className="navbar bg-bg-purple text-bg-white w-full rounded ">
-        <div className='navbar-start '>
-            <NavLink to="/profile" className="hover:bg-bg-white pr-1 hover:p-2 rounded hover:text-bg-purple" activeClassName='!text-bg-purple !bg-bg-white' >
+    <div className="bg-bg-purple text-bg-white w-full rounded flex">
+        <div className='grid h-12 flex-grow card place-items-center '>
+            <NavLink to="/profile" className="hover:bg-bg-white p-2 hover:p-2 rounded hover:text-bg-purple">
                 Profile
             </NavLink>
         </div>
-        <div className='navbar-center '>
-            <NavLink to="/changepassword" className="hover:bg-bg-white pr-1 hover:p-2 rounded hover:text-bg-purple" activeClassName='!text-bg-purple !bg-bg-white'>
+        <div className="divider divider-horizontal bg-bg-white w-1 "></div>   
+        <div className='grid h-12 flex-grow card place-items-center'>
+            <NavLink to="/changepassword" className="hover:bg-bg-white p-2 hover:p-2 rounded hover:text-bg-purple">
                 Change Password
             </NavLink>
         </div>
-        <div className='navbar-end '>
-            <NavLink to="/staffslist" className="hover:bg-bg-white hover:p-2 rounded hover:text-bg-purple" activeClassName='!text-bg-purple !bg-bg-white'>
+        <div className="divider divider-horizontal bg-bg-white w-1 "></div>
+        <div className='grid h-12 flex-grow card  place-items-center'>
+            <NavLink to="/staffslist" className="hover:bg-bg-white p-2 hover:p-2 rounded hover:text-bg-purple">
                 Staffs
             </NavLink>
         </div>

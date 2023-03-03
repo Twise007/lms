@@ -17,8 +17,8 @@ const StaffsList = () => {
     </div>
 
     <div className='overflow-x-auto bg-bg-off-white rounded-box shadow-xl mt-5 text-bg-black'>
-      <table className="table w-full bg-bg-purple!important">
-        <thead className='text-bg-white'>
+      <table className="table w-full bg-bg-purple">
+        <thead className='text-bg-white bg-bg-purple'>
           <tr>
             <th>s/n</th> 
             <th>Name</th> 
@@ -30,27 +30,17 @@ const StaffsList = () => {
         </thead> 
         <tbody>
           <tr className="hover">
-            <th>1</th>
+            <th>3</th>
             <td>Tunde</td>
             <td>Tundeoke80@gmail.com</td>
             <td>Admin</td>
             <td>
-              Change Role
+              <ChangeRole/>
             </td>
             <td>
-              <FaTrashAlt size={20} color='red'/>
-            </td>
-          </tr>
-          <tr className="hover">
-            <th>2</th>
-            <td>Tunde</td>
-            <td>Tundeoke80@gmail.com</td>
-            <td>Admin</td>
-            <td>
-              Change Role
-            </td>
-            <td>
-              <FaTrashAlt size={20} color='red'/>
+              <button className="btn bg-bg-purple text-bg-white hover:bg-bg-white hover:text-bg-purple ml-1" style={{border:"none"}}>
+                <FaTrashAlt size={20} />
+              </button>
             </td>
           </tr>
           <tr className="hover">
@@ -62,7 +52,23 @@ const StaffsList = () => {
               <ChangeRole/>
             </td>
             <td>
-              <FaTrashAlt size={20} color='red'/>
+              <button className="btn bg-bg-purple text-bg-white hover:bg-bg-white hover:text-bg-purple ml-1" style={{border:"none"}}>
+                <FaTrashAlt size={20} />
+              </button>
+            </td>
+          </tr>
+          <tr className="hover">
+            <th>3</th>
+            <td>Tunde</td>
+            <td>Tundeoke80@gmail.com</td>
+            <td>Admin</td>
+            <td>
+              <ChangeRole/>
+            </td>
+            <td>
+              <button className="btn bg-bg-purple text-bg-white hover:bg-bg-white hover:text-bg-purple ml-1" style={{border:"none"}}>
+                <FaTrashAlt size={20} />
+              </button>
             </td>
           </tr>
         </tbody>

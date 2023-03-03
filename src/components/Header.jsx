@@ -8,7 +8,7 @@ import Htitle from './Htitle'
 const Header = () => {
 
   return (
-    <div className="navbar bg-bg-white"style={{position:"fixed", zIndex:"999"}}>
+    <div className="navbar bg-bg-white"style={{position:"fixed", zIndex:"12"}}>
         <Htitle/>
         <div className="flex-none text-bg-black">
             <ul className="menu menu-horizontal px-1">

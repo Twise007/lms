@@ -13,7 +13,7 @@ const StaffsStats = () => {
   return (
     <div className='shadow-2xl rounded-box'>
         <h1 className='text-bg-black text-3xl font-bold p-2'>Profile:</h1>
-        <div className=" justify-center card-actions">
+        <div className="justify-center card-actions">
             <InfoBox 
                 icon={icon1}
                 title={"Total"}
@@ -32,7 +32,7 @@ const StaffsStats = () => {
                 count={"5"}
                 bgColor=""
             />
-                        <InfoBox 
+            <InfoBox 
                 icon={icon4}
                 title={"Suspended"}
                 count={"5"}

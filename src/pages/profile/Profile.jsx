@@ -32,7 +32,8 @@ const profile = () => {};
   return (
     <div className='bg-bg-off-white  min-h-screen pt-20 px-10'>
       <PageMenu />
-        <div className="card bg-bg-off-white text-bg-black shadow-2xl my-5 ">
+      <div className='hero'>
+        <div className="card w-96 bg-bg-off-white text-bg-black shadow-2xl my-5 ">
           <h1 className='text-bg-black text-3xl font-bold p-2 '>Profile:</h1>
           <div className='text-center bg-white'>
             <figure className="mx-8 pt-5">
@@ -80,6 +81,7 @@ const profile = () => {};
             </form>
           </div>
         </div>
+      </div>
     </div>
   )
 }

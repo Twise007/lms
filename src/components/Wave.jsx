@@ -5,7 +5,7 @@ import { Wave1, Wave2 } from './Styles'
 const Wave = ({children}) => {
   return (
     <div className=''>
-      <div className='navbar bg-bg-off-white' style={{zIndex:"9",position:"fixed"}}>
+      <div className='navbar bg-bg-off-white' style={{zIndex:"12",position:"fixed"}}>
         <Htitle/>
         <Wave1>
           {/* gotten from https://www.shapedivider.app/ */}
