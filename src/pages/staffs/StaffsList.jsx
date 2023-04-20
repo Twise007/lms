@@ -4,6 +4,9 @@ import ChangeRole from '../../components/changeRole/ChangeRole'
 import PageMenu from '../../components/PageMenu'
 import Search from '../../components/Search'
 import StaffsStats from '../../components/staffsStats/StaffsStats'
+import { Thead } from '../../components/Styles'
+
+
 
 const StaffsList = () => {
   return (
@@ -17,9 +20,9 @@ const StaffsList = () => {
     </div>
 
     <div className='overflow-x-auto rounded-box shadow-xl mt-5'>
-      <table className="table w-full bg-bg-purple!important">
-        <thead className='text-bg-white bg-bg-purple!important'>
-          <tr className='bg-bg-purple!important'>
+      <table className="table w-full">
+        <thead className='text-bg-white'>
+          <tr className='bg-bg-purple'>
             <th>s/n</th> 
             <th>Name</th> 
             <th>Email</th> 
@@ -27,7 +30,7 @@ const StaffsList = () => {
             <th>Change Role</th>
             <th>Action</th>
           </tr>
-        </thead> 
+        </thead>
         <tbody className='bg-bg-off-white text-bg-black'>
           <tr className="hover">
             <th>3</th>

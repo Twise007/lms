@@ -53,3 +53,11 @@ export const LoaderCss = styled.div`
     transform: translate(-50%, -50%);
     z-index: 999;
 `
+
+export const Thead = styled.div`
+    .tr{
+        th{
+        background: var(--color-purple) !important;
+        }
+    }
+`

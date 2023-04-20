@@ -17,25 +17,25 @@ const StaffsStats = () => {
             <InfoBox 
                 icon={icon1}
                 title={"Total"}
-                count={"5"}
+                count={"27"}
                 bgColor=''
             />
             <InfoBox 
                 icon={icon2}
                 title={"Verified"}
-                count={"5"}
+                count={"18"}
                 bgColor=""
             />
             <InfoBox 
                 icon={icon3}
                 title={"Unverified"}
-                count={"5"}
+                count={"6"}
                 bgColor=""
             />
             <InfoBox 
                 icon={icon4}
                 title={"Suspended"}
-                count={"5"}
+                count={"3"}
                 bgColor=""
             />
         </div>
