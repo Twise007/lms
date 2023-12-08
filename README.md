@@ -1,4 +1,4 @@
-# You can veiw the project here https://teecamp.netlify.app though under cinstruction
+# You can veiw the project here https://teecamp.netlify.app though under construction
 
 Its a LMS project that allows the full functionality of a CRUD app.
 1, The head of school to assign subject and class to a teachers. 
